@@ -311,8 +311,8 @@ def Algorithm(size_patch,t_class,model,image,form):
                 w = im == (0,0,0)
                 im[w] = part[w]
                 OTarget[heights_[i]:heights_[i]+x,widths_[i]:widths_[i]+y] = im
-                cv2.imshow("W",OTarget)
-                cv2.waitKey(1)
+                #cv2.imshow("W",OTarget)
+                #cv2.waitKey(1)
                 if model_Keras:
                     OTarget = cv2.resize(OTarget,model_input_shape)
                 else:
