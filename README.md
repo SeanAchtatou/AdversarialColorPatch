@@ -14,17 +14,12 @@ This application outputs the most efficient patches in order to attacks road sig
 -: Untarget Attack (create the most efficient patch allowing to produce the lowest probability of the original label) <br />
 -: No Label (create the most efficient patch based on the best label probability) <br />
 
-NEED TO DEFINE THE FOLDERS
 
 ### Dependencies
 
 * tensorflow
 * pymoo
 * numpy
-
-### Installing
-
-* TO BE DEFINED
 
 ### Executing program
 
